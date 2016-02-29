@@ -33,12 +33,8 @@ text-decoration: none;
 }
 
 #container {
-padding-right: 20px;
-padding-top: 150px;
-background: #FFF url(header.jpg) no-repeat;
-background-position: center center;
-background-size: cover;
-color: #000;
+margin: 0;
+border: 1px, solid, #E2F2EC;
 }
 
 .navbar-default {
@@ -151,3 +147,21 @@ color: #00515C;
 #nav a:hover {
 background: url(linkhover.gif) no-repeat;
 }
+
+#banner {
+padding-right: 20px;
+padding-top: 150px;
+background: #FFF url(header.jpg) no-repeat;
+background-position: center center;
+background-size: cover;
+color: #000;
+}
+
+.ltblueColumn {
+background: #E2F2EC;
+}
+
+.drkblueColumn {
+background: #B6DACB;
+}
+
