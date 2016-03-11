@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a:link {
+	color: #9DB0F8;
+}
+#outer #content {
+}
+
+
+
+#outer {
+	width: 70%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	border: thin none #666666;
+	margin-right: auto;
+	font-size: 90%;
+}
+#banner, #footer {
+	background-image: url(black.jpg);
+}
+#banner h1 {
+	text-align: center;
+	padding: 1em;
+	margin: 0;
+	border-bottom: thick solid #000;
+	color: #FCFBFB;
+}
+#nav li {
+	margin-bottom: 1.5em;
+	color: #C3C3C3;
+}
+#nav ul {
+	margin: 0;
+	padding-top: 2em;
+	padding-left: 1em;
+	padding-right: 0;
+	padding-bottom: 0;
+	font-weight: bold;
+	list-style: none;
+}
+#content {
+	border-left: 250px solid #494941;
+}
+#content p {
+	padding: 1em;
+	margin: 0;
+	line-height: 1.5em;
+}
+#content h2 {
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: .5em;
+	padding-bottom: 0;
+	margin: 0;
+	letter-spacing: .3em;
+}
+#footer {
+	border-top: thick solid #000;
+}
+
+
+
+
+
+
+#nav {
+	float: left;
+	width: 250px;
+}
+#footer p {
+	color: #FCFBFB;
+}
+a:visited {
+	color: #FCFBFB;
+}
