@@ -263,6 +263,7 @@
 	left: 0;
 	width: 70%;
 	top: 1em;
+	padding-left: 7em;
 	}
 	
 	#logo h1
@@ -351,8 +352,9 @@
 
 	#content
 	{
-		float: right;
-		width: 790px;
+	float: right;
+	width: 900px;
+	padding-right: 20px;
 	}
 	
 	#content .image-full
@@ -366,9 +368,20 @@
 
 	#sidebar
 	{
-		float: left;
-		width: 345px;
+	float: left;
+	width: 345px;
+	padding-left: 35px;
 	}
+#page #sidebar .box2.container-fluid {
+	padding-top: 25px;
+}
+#sidebar .box2.container-fluid img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+
 	
 	#sidebar .title h2
 	{
@@ -379,6 +392,11 @@
 	{
 		margin-bottom: 3em;
 	}
+#sidebar .box1.container-fluid ul {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
 
 /*********************************************************************************/
 /* Footer                                                                        */
@@ -525,4 +543,23 @@
 }
 #sidebar .box1 .box2 img {
 	margin-bottom: 20px;
+}
+.btn-center {
+}
+.movedown {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.picturepad {
+	padding-top: 50%;
+	padding-left: 1px;
+}
+.picture {
+}
+
+@media screen{
+}
+.firstpage {
+	margin-top: -75px;
+	margin-bottom: -75px;
 }
