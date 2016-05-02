@@ -250,8 +250,8 @@
 
 	#header
 	{
-		position: relative;
-		height: 150px;
+	position: relative;
+	height: 50px;
 	}
 
 /*********************************************************************************/
@@ -268,11 +268,11 @@
 	
 	#logo h1
 	{
-		display: inline-block;
-		font-size: 2.5em;
-		text-transform: uppercase;
-		font-weight: 700;
-		color: #FFF;
+	display: inline-block;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #FFF;
 	}
 	
 	#logo a
@@ -341,9 +341,11 @@
 
 	#page
 	{
-		position: relative;
-		overflow: hidden;
-		padding: 6em 0em 5em 0em;
+	position: relative;
+	overflow: hidden;
+	padding: 20px 5% 6px;
+	margin-left: 5%;
+	margin-right: 5px;
 	}
 
 /*********************************************************************************/
@@ -353,8 +355,8 @@
 	#content
 	{
 	float: right;
-	width: 900px;
 	padding-right: 20px;
+	width: 900px;
 	}
 	
 	#content .image-full
@@ -373,11 +375,10 @@
 	padding-left: 35px;
 	}
 #page #sidebar .box2.container-fluid {
-	padding-top: 25px;
+
 }
 #sidebar .box2.container-fluid img {
 	margin-top: 10px;
-	margin-bottom: 10px;
 	padding-left: 20px;
 }
 
@@ -390,11 +391,10 @@
 	
 	#sidebar .box1
 	{
-		margin-bottom: 3em;
+
 	}
 #sidebar .box1.container-fluid ul {
 	padding-top: 2px;
-	padding-bottom: 2px;
 }
 
 
@@ -534,7 +534,7 @@
 		float: right;
 	}
 #header-wrapper img {
-	display: inline-block;
+	display: inline;
 	padding-top: 2em;
 	position: relative;
 	margin-left: 10em;
@@ -542,7 +542,7 @@
 
 }
 #sidebar .box1 .box2 img {
-	margin-bottom: 20px;
+
 }
 .btn-center {
 }
@@ -562,4 +562,16 @@
 .firstpage {
 	margin-top: -75px;
 	margin-bottom: -75px;
+}
+#center {
+	margin-top: 5%;
+}
+#reposition {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.text-color {
+	color: #E1D9DA;
+	top: auto;
+	padding-top: 20%;
 }
